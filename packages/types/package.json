@@ -1,0 +1,16 @@
+{
+  "name": "@internal/types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types and interfaces for rent house review app",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "lint": "biome check src",
+    "format": "biome format src --write && biome check src --write"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend API for rent house review app",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "lint": "biome check src",
+    "format": "biome format src --write && biome check src --write"
+  },
+  "dependencies": {
+    "@internal/types": "workspace:*",
+    "fastify": "^4.0.0",
+    "@fastify/cors": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

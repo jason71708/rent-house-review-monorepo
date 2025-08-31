@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Production builds
+.next/
+dist/
+build/
+out/
+
+# Development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+test-results/
+playwright-report/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Playwright
+test-results/
+playwright-report/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Optional npm cache directory
+.npm
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.history/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
